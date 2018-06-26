@@ -35,7 +35,7 @@
 2. Restore NuGet packages: `nuget restore <project path>\lj-homework.sln`
 3. Build the project: `MSBuild <project path>\lj-homework.sln` 
 4. Run tests from the CLI:
-    * Run all tests: `nunit3-console.exe C:\Projects\Homework\lj-homework\lj-tests\bin\Debug\lj-tests.dll --result=<output folder>\TestResult.xml;format=nunit3`. (Please note the **NUnit** may not have rights to create a folder. Please create _output folder_ in advance).
+    * Run all tests: `nunit3-console.exe <project path>\lj-tests\bin\Debug\lj-tests.dll --result=<output folder>\TestResult.xml;format=nunit3`. (Please note the **NUnit** may not have rights to create a folder. Please create _output folder_ in advance).
     * To run a subcategory of the tests please add a parameter to the end of the command: `--where "cat =<category name>"`. _Category name_ means any tag defined in the feature files. E.g. to run all tests with **high** prioority please use the parameter `--where "cat = high"`. You can also combine different categories `--where "cat = high || medium"` or run only tests which contain all required tags `--where "cat = high && smoke"`
 
 ---
