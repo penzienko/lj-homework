@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lj-framework", "lj-framework\lj-framework.csproj", "{C01B5C43-B324-4221-AD26-9DB67EDA4ECE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lj-tests", "lj-tests\lj-tests.csproj", "{3BB0299D-5A77-4CA3-B9F6-B604D056D9BB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C01B5C43-B324-4221-AD26-9DB67EDA4ECE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C01B5C43-B324-4221-AD26-9DB67EDA4ECE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C01B5C43-B324-4221-AD26-9DB67EDA4ECE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C01B5C43-B324-4221-AD26-9DB67EDA4ECE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BB0299D-5A77-4CA3-B9F6-B604D056D9BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BB0299D-5A77-4CA3-B9F6-B604D056D9BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BB0299D-5A77-4CA3-B9F6-B604D056D9BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BB0299D-5A77-4CA3-B9F6-B604D056D9BB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D4B6E09C-833B-4E36-BB77-C7CB6FDE08CE}
+	EndGlobalSection
+EndGlobal
