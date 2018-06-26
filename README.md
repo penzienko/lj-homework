@@ -5,13 +5,13 @@
 
 ### In Visual Studio 2017
 
-Install:
+**Install**:
 * [.Net Framework 4.7.1](https://www.microsoft.com/en-us/download/details.aspx?id=56116)
 * [Visual Studio 2017](https://visualstudio.microsoft.com/downloads/)
 * [Git](https://git-scm.com/downloads)
 * [Google Chrome](https://www.google.com/chrome/) browser (install to the default path)
 
-Run tests:
+**Run tests**:
 1. Clone the repository: `git clone https://github.com/penzienko/lj-homework.git`
 2. Open the project\solution (`lj-homework.sln` file) in the Visual Studio
 3. Restore NuGet via Package Manager Console: `PM> Update-Package`
@@ -22,7 +22,7 @@ Run tests:
 
 ### In CLI
 
-Install
+**Install**:
 * [.Net Framework 4.7.1](https://www.microsoft.com/en-us/download/details.aspx?id=56116)
 * [Git](https://git-scm.com/downloads)
 * [Google Chrome](https://www.google.com/chrome/) browser (install to the default path)
@@ -30,7 +30,7 @@ Install
 * [NUnit Console](http://nunit.org/download/)
 * [Build Tools for Visual Studio 2017](https://visualstudio.microsoft.com/downloads/)
 
-Run from CLI
+**Run tests**:
 1. Clone the repository: `git clone https://github.com/penzienko/lj-homework.git`
 2. Restore NuGet packages: `nuget restore <project path>\lj-homework.sln`
 3. Build the project: `MSBuild <project path>\lj-homework.sln` 
